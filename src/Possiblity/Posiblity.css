@@ -1,0 +1,105 @@
+.PosCont{
+    width: 100vw;
+    height: fit-content;
+    margin: 2rem 0 1rem 0;
+}
+.star{
+    margin: 0 0 2rem 0;
+}
+.mainPosib{
+overflow: hidden;
+width: 75%;
+height: 260px;
+margin: auto;
+/* background: radial-gradient(48% 48% at 7% 12%, rgba(219, 124, 126, 0.6) 0%, rgba(235, 29, 253, 0) 100%)  , radial-gradient(21% 21% at 14% 87%, rgba(91, 241, 251, 0.498) 0%, rgba(63, 232, 255, 0) 84.22%)  , radial-gradient(15% 63% at 91% 78%, rgba(238, 91, 251, 0.6) 0%, rgba(235, 29, 253, 0) 100%) , #913DEA; */
+border-radius: 245px;
+
+}
+.PosibCont{
+    position: relative;
+    width: 100%;
+    height: 100%;
+overflow: hidden;
+    /* background-color: #FFFFFF; */
+background: radial-gradient(48% 48% at 7% 12%, rgba(219, 124, 126, 0.6) 0%, rgba(235, 29, 253, 0) 100%)  , radial-gradient(21% 21% at 14% 87%, rgba(91, 241, 251, 0.498) 0%, rgba(63, 232, 255, 0) 84.22%)  , radial-gradient(15% 63% at 91% 78%, rgba(238, 91, 251, 0.6) 0%, rgba(235, 29, 253, 0) 100%) , #913DEA;
+
+}
+.textPosib1{
+    position: absolute;
+    width: fit-content;
+    left: 6vw ;
+    top: 1vw;
+}
+
+.textPosib1Svg{
+    width: 10rem;
+    height: auto;
+}
+.textPosib2Svg{
+    width: auto;
+    height: 240px;
+}
+.textPosib2{
+    position: absolute;
+    width: 200px;
+    height: fit-content;
+    top: 10px;
+    right: -1vw;
+    /* background-color: #913DEA; */
+}
+ 
+.posImg{
+    width: 200px;
+    height: 240px;
+    margin: auto;
+
+}
+
+.line{
+    width: 100vw;
+    margin: auto;
+    padding: 2rem 3vw;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+.lineDraw{
+     width: 40vw;
+     padding-left: 1rem;
+}
+.lineText{
+    width: 50vw;
+    font-size: 2rem;
+    color: white;
+    line-height: 45px;
+}
+@media only screen and (max-width: 600px) {
+    .mainPosib{
+        width: 93%;
+        height: 200px;
+    }
+    .textPosib1{
+        left: 3vw;
+        top: 0;
+        /* width: 17vw; */
+    }
+    .textPosib2{
+        right: -12vw;
+    }
+    .textPosib1Svg{
+        width: 8rem;
+    }
+    .textPosib2Svg{
+        height: 180px;
+    }
+    .line{
+        padding: 1rem 0;
+    }
+    .lineDraw{
+        visibility: hidden;
+        padding-left: 0;
+    }
+    .lineText{
+        width: 90vw;
+        font-size: 1.7rem;
+    }
+}

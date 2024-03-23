@@ -1,0 +1,814 @@
+.contPort{ 
+width: 100vw;
+height: fit-content;
+background-color: white;
+}
+.imagePortC{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     
+}
+.imagePort{
+    width: 45vw;
+    height: auto;
+    justify-content: space-between;
+    padding: 1rem 1rem ;
+
+}
+.mainTitleDiv{
+    width: 45vw;
+    height: auto;
+    justify-content: space-between;
+    
+}
+.TitleDiv{
+    
+}
+.imagePortS{
+    width: 200px;
+    height: auto;
+    
+    
+}
+.portSvg{
+    width: 40%;
+    height: auto;
+    margin: 2vw;
+    padding-top: 1rem;
+}
+.seeMoreSvg{
+   margin: 2rem auto; 
+
+}
+.test{
+/* circle-01.svg */
+
+/* Auto layout */
+
+/*
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 40px;
+max-width: 40px;
+right: 355.81px;
+top: 4071.5px;
+bottom: 4627.5px;
+
+opacity: 0.4;
+
+
+/* circle-01.svg */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 40px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 40px;
+height: 40px;
+
+background: #CFD2DD;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* star-01.svg */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 64px;
+max-width: 64px;
+right: 236.6px;
+top: 5523px;
+bottom: 3152px;
+
+transform: matrix(0, -1, 0, -1, 0, 0);
+
+
+/* star-01.svg */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 64px;
+height: 64px;
+
+transform: matrix(0, -1, 0, -1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 64px;
+height: 64px;
+
+background: #9351F7;
+transform: matrix(0, -1, 0, -1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* star-03.svg */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 80px;
+max-width: 80px;
+right: 129.81px;
+top: 4116.3px;
+bottom: 4542.7px;
+
+
+
+/* star-03.svg */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 80px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 80px;
+height: 80px;
+
+background: #CFD2DD;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* star-03.svg */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 53px;
+max-width: 53px;
+right: 1422px;
+top: 4128.5px;
+bottom: 4557.5px;
+
+
+
+/* star-03.svg */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 53px;
+height: 53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 53px;
+height: 53px;
+
+background: #CFD2DD;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* circle-02.svg */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 40px;
+max-width: 40px;
+left: 727px;
+top: 4305.5px;
+bottom: 4393.5px;
+
+opacity: 0.2;
+
+
+/* circle-02.svg */
+
+width: 40px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 1.27%;
+top: 0.45%;
+bottom: 0.82%;
+
+background: #1F2128;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 1.27%;
+top: 0.45%;
+bottom: 0.82%;
+
+background: rgba(255, 255, 255, 0.45);
+
+
+/* star-02.svg */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 64px;
+max-width: 64px;
+left: 422.43px;
+top: 5535px;
+bottom: 3140px;
+
+transform: matrix(0, -1, 0, -1, 0, 0);
+
+
+/* star-02.svg */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 64px;
+height: 64px;
+
+transform: matrix(0, -1, 0, -1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 64px;
+height: 64px;
+
+background: #E971FF;
+transform: matrix(0, -1, 0, -1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* PORTFOLIO */
+
+position: absolute;
+width: 684px;
+height: 76px;
+left: calc(50% - 684px/2 + 408px);
+top: 2664px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 109.029px;
+line-height: 131px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 73px;
+
+position: absolute;
+width: 729px;
+height: 2714px;
+left: 899px;
+top: 2868px;
+
+
+
+/* Group 6 */
+
+width: 729px;
+height: 788px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 729px;
+height: 788px;
+left: 0px;
+top: 0px;
+
+/*
+background: linear-gradient(75.47deg, rgba(241, 45, 45, 0.2) -0.81%, rgba(0, 0, 0, 0) 83.86%), linear-gradient(180.05deg, rgba(0, 0, 0, 0) 55.24%, #6042B4 99.95%)
+ , url(image.png); 
+border-radius: 28px;
+*/
+
+
+/* GAMING METAVERSE */
+
+position: absolute;
+width: 534px;
+height: 32px;
+left: 90px;
+top: 693px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 58px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+
+
+/* Group 8 */
+
+width: 729px;
+height: 992px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 729px;
+height: 992px;
+left: 0px;
+top: 861px;
+
+/*
+background: linear-gradient(75.47deg, rgba(241, 45, 45, 0.2) -0.81%, rgba(0, 0, 0, 0) 83.86%), linear-gradient(180.05deg, rgba(0, 0, 0, 0) 55.24%, #6042B4 99.95%)
+ , url(image.png); 
+border-radius: 28px;
+*/
+
+
+/* WEB3 METAVERSE */
+
+position: absolute;
+width: 466px;
+height: 32px;
+left: 132px;
+top: 1762px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 58px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+
+
+/* Group 7 */
+
+width: 729px;
+height: 788px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 729px;
+height: 788px;
+left: 0px;
+top: 1926px;
+
+/*
+background: linear-gradient(75.47deg, rgba(241, 45, 45, 0.2) -0.81%, rgba(0, 0, 0, 0) 83.86%), linear-gradient(180.05deg, rgba(0, 0, 0, 0) 55.24%, #6042B4 99.95%)
+ , url(image.png); 
+border-radius: 28px;
+*/
+
+
+/* CRYPTO METAVERSE */
+
+position: absolute;
+width: 521px;
+height: 32px;
+left: 97px;
+top: 2619px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 58px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+
+
+/* Group 9 */
+
+position: absolute;
+width: 729px;
+height: 788px;
+left: 100px;
+top: 3716px;
+
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 729px;
+height: 788px;
+left: 100px;
+top: 3716px;
+
+/*
+background: linear-gradient(75.47deg, rgba(241, 45, 45, 0.2) -0.81%, rgba(0, 0, 0, 0) 83.86%), linear-gradient(180.05deg, rgba(0, 0, 0, 0) 55.24%, #6042B4 99.95%)
+ , url(image.png); 
+border-radius: 28px;
+*/
+
+
+/* 3D GAME METAVERSE */
+
+position: absolute;
+width: 558px;
+height: 32px;
+left: 208px;
+top: 4414px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 58px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+
+
+/* Group 7 */
+
+position: absolute;
+width: 729px;
+height: 2892px;
+left: 100px;
+top: 2664px;
+
+
+
+/* Group 10 */
+
+position: absolute;
+width: 729px;
+height: 992px;
+left: 100px;
+top: 2664px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 729px;
+height: 992px;
+left: 100px;
+top: 2664px;
+
+/*
+background: linear-gradient(75.47deg, rgba(241, 45, 45, 0.2) -0.81%, rgba(0, 0, 0, 0) 83.86%), linear-gradient(180.05deg, rgba(0, 0, 0, 0) 55.24%, #6042B4 99.95%)
+ , url(image.png); 
+border-radius: 28px;
+*/
+
+/* DUBAI METAVERSE */
+
+position: absolute;
+width: 476px;
+height: 32px;
+left: 227px;
+top: 3561px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 58px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+
+
+/* Group 12 */
+
+position: absolute;
+width: 729px;
+height: 992px;
+left: 100px;
+top: 4564px;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 729px;
+height: 992px;
+left: 100px;
+top: 4564px;
+/*
+background: linear-gradient(75.47deg, rgba(241, 45, 45, 0.2) -0.81%, rgba(0, 0, 0, 0) 83.86%), linear-gradient(180.05deg, rgba(0, 0, 0, 0) 55.24%, #6042B4 99.95%)
+ , url(image.png); 
+border-radius: 28px;
+*/
+
+/* METAVERSE APP */
+
+position: absolute;
+width: 418px;
+height: 32px;
+left: 256px;
+top: 5471px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 58px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 390px;
+height: 59px;
+left: calc(50% - 390px/2);
+top: 5702px;
+
+
+
+/* Group 11 */
+
+width: 291px;
+height: 52.07px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* SEE MORE */
+
+position: absolute;
+width: 291px;
+height: 36px;
+left: 0px;
+top: 3.46px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 53.544px;
+line-height: 64px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.1em;
+
+color: #3C3B3B;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 286.97px;
+height: 0px;
+left: 4px;
+top: 55.54px;
+
+border: 5px solid #000000;
+
+
+/* arrow-right_svgrepo.com */
+
+width: 59px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 25.51%;
+top: 41.07%;
+bottom: 48.29%;
+
+background: #1C274C;
+opacity: 0.98;
+
+
+/* Vector 
+
+position: absolute;
+left: 50.85%;
+right: 18.93%;
+top: 18.64%;
+bottom: 26.96%;
+
+background: #1C274C;
+
+*/
+}
