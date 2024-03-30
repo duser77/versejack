@@ -8,7 +8,7 @@ export default function Footer() {
             {/* <div className="btn">
                   
             </div> */}
-            <div style={{paddingBottom:'100px',marginBottom:'50px'}} className="btnDiv">
+            <div  className="FootQbtnDiv" >
           <div className="btnImgCont" >
           <img className="btnImg" src="/btn.png" alt="btn-img" />
           </div> 

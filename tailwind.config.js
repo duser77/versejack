@@ -4,6 +4,7 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -14,6 +15,12 @@ module.exports = {
       },
       
     },
+    colors:{
+      'whites':'#ffffff',
+      'pink':'#FF75D8',
+      'blue':'#3D66FB',
+      'grey':'#636363'
+    }
   },
   plugins: [],
 };

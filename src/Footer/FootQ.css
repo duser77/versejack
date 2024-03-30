@@ -8,6 +8,8 @@
  .textC{
     width: 100vw;
  }
+
+ /* btn start */
  .btn{
 width: 369px;
 height: 75px;
@@ -22,6 +24,46 @@ filter: blur(15.5px);
 border-radius: 24px;
  margin-top: 2rem;
  }
+
+ .FootQbtnDiv{
+    position: relative;
+    width: 369px;
+    height: 60px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    /* background-color: #2600FC; */
+    /* background: linear-gradient(62.05deg, #2600FC 0%, #FF00EA 100%); */
+    /* opacity: 1; */
+    /* filter: blur(10.5px); */
+     
+    border-radius: 24px;
+    overflow: visible;
+     
+}
+.btnText{
+font-size: 28px;
+    text-align: center;
+    color: white;
+    position: absolute;
+width: 100%;
+height: auto;
+top: 35px;
+left: 0;
+}
+.btnImgCont{
+position: absolute;
+width: 100%;
+height: auto;
+top: 0;
+left: 0;
+}
+.btnImg{
+width: 369px;
+height: auto;
+}
+
+/* btn end */
 .text1{
 width: 70vw;
 text-align: center;
