@@ -18,4 +18,11 @@ body{
 :root {
     --btn-color:linear-gradient(62.05deg, #2600FC 0%, #FF00EA 100%);
   }
-
+@-ms-viewport{
+    
+}
+  @media only screen and (max-width: 1840px) {
+   body{
+    
+   }
+  }

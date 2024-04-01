@@ -2,6 +2,7 @@ import "./Pricing.css";
 import { Span } from "next/dist/trace";
 import PricingBox from "./PricingBox";
 import PricingBox2 from "./PricingBox2";
+import PricingBox3 from "./code/pricingBox3";
 
 export default function Pricing() {
   return (
@@ -19,8 +20,8 @@ export default function Pricing() {
         </div>
 
         {/* <PricingBox/> */}
-        
-        <PricingBox2/>
+        <PricingBox3/>
+        {/* <PricingBox2/> */}
 
           <div className="mt-[40px] md:mt-[80px]">
             <div className="w-full text-center text-whites text-xl sm:text-3xl md:text-4xl font-white capitalize">

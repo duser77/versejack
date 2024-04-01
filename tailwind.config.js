@@ -19,7 +19,10 @@ module.exports = {
       'whites':'#ffffff',
       'pink':'#FF75D8',
       'blue':'#3D66FB',
-      'grey':'#636363'
+      'grey':'#636363',
+      'pricing':'#323232',
+      'list':'#F5F5F5',
+      'grey-box':'#f4f4f4'
     }
   },
   plugins: [],
