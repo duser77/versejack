@@ -165,16 +165,16 @@
         flex-direction: column;
     }
     .price-box{
-        width: 90vw;
+        width: 86vw;
         margin: auto;
         margin-top: 2rem;
     }
     .price-box1 ,.price-box2 , .price-box3 , .price-box4 , .price-box5{
-        width: 90vw;
+        width: 86vw;
         max-width: 480px;
     }
     .pricingPrice3{
-        width: 90vw;
+        width: 86vw;
         max-width: 480px;
     }
     .pricingText1 , .pricingText2 , .pricingText3 , .pricingText4 , .pricingText5{
