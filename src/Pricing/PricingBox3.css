@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .pricingBoxMain{
     width: 100vw;
     margin: 0 auto;
@@ -40,7 +42,7 @@
 }
 .price-box2{
     width: 18vw;
-    height: 320px;
+    height: 330px;
     min-width: 220px;
     max-width: 390px;
 }
@@ -51,7 +53,7 @@
 }
 .price-box3{
     width: 20vw;
-    height: 420px;
+    height: 400px;
     min-width: 240px;
     max-width: 420px;
 }
@@ -63,6 +65,12 @@
     width: 20vw;
     min-width: 240px;
     max-width: 420px;
+   
+}
+.bold-font{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 .price-box4{
     width: 18vw;
@@ -76,12 +84,12 @@
 }
 .price-box5{
     width:  16vw;
-    height: 290px;
+    height: 280px;
     min-width: 200px;
     max-width: 360px;
     margin-right: 1rem;
 }
-.pricingText1{
+.pricingText5{
     width: 15vw;
     min-width: 180px;
 }
@@ -192,12 +200,12 @@
         min-width: 200px;
         max-width: 360px;
     }
-    .price-box1{
+    /* .price-box1{
        
         
         height: 250px;
-        /* border-top-left-radius: 7px;
-        border-bottom-left-radius: 7px; */
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
         margin-left: 1vw;
     }
     .price-box2{
@@ -205,26 +213,26 @@
         height: 300px;
         min-width: 220px;
         max-width: 390px;
-    }
-    .price-box3{
+    } */
+    /* .price-box3{
         width: 20vw;
         height: 400px;
         min-width: 240px;
         max-width: 420px;
-    }
-    .price-box4{
+    } */
+    /* .price-box4{
         width: 18vw;
-        height: 300px;
+        height: 330px;
         min-width: 220px;
         max-width: 390px;
-    }
-    .price-box5{
+    } */
+    /* .price-box5{
         width:  16vw;
-        height: 250px;
+        height: 280px;
         min-width: 200px;
         max-width: 360px;
         margin-right: 1rem;
-    }
+    } */
 }
 @media only screen and (min-width: 1640px)  {
     .pricingBoxSection{
