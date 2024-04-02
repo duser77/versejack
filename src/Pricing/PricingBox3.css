@@ -27,7 +27,7 @@
     width: 16vw;
     min-width: 200px;
     max-width: 360px;
-    height: 250px;
+    height: 260px;
     
      /* border-top-left-radius: 7px;
     border-bottom-left-radius: 7px; */
@@ -40,7 +40,7 @@
 }
 .price-box2{
     width: 18vw;
-    height: 310px;
+    height: 320px;
     min-width: 220px;
     max-width: 390px;
 }
@@ -51,7 +51,7 @@
 }
 .price-box3{
     width: 20vw;
-    height: 400px;
+    height: 420px;
     min-width: 240px;
     max-width: 420px;
 }
@@ -59,9 +59,14 @@
     width: 19vw;
     min-width: 210px;
 }
+.pricingPrice3{
+    width: 20vw;
+    min-width: 240px;
+    max-width: 420px;
+}
 .price-box4{
     width: 18vw;
-    height: 310px;
+    height: 330px;
     min-width: 220px;
     max-width: 390px;
 }
@@ -71,7 +76,7 @@
 }
 .price-box5{
     width:  16vw;
-    height: 260px;
+    height: 290px;
     min-width: 200px;
     max-width: 360px;
     margin-right: 1rem;
@@ -164,6 +169,10 @@
         margin-top: 2rem;
     }
     .price-box1 ,.price-box2 , .price-box3 , .price-box4 , .price-box5{
+        width: 90vw;
+        max-width: 480px;
+    }
+    .pricingPrice3{
         width: 90vw;
         max-width: 480px;
     }

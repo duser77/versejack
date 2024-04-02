@@ -32,101 +32,80 @@ export default function Pricing() {
                 </p>
                 </div> */}
           <div className="flex w-full h-[60px] font-mono justify-center   text-xl font-light text-grey">
-            <img
-              className="h-[30px] w-[50px] mr-[10px]"
-              src="/p1.png"
-              alt="p1"
-            /> 
+            <img className="h-[30px] w-[50px] mr-[10px]" src="/p1.png" alt="p1" /> 
             /months
           </div>
           <div className="h-[130px] relative w-full bg-grey-box pt-[10px]">
             <div className="pricingText pricingText1  flex">
               <div className="w-[25px]  ">
-                <img
-                  src="/tick.png"
-                  alt="tick"
-                  className="w-[15px] h-[15px] "
-                />
+                <img src="/tick.png"  alt="tick" className="w-[15px] h-[15px] " />
               </div>
               Per room 20 member
             </div>
             <div className="pricingBtn">Get started</div>
           </div>
         </div>
-        <div className="price-box price-box2  ">
+        <div style={{height:'320px'}} className="price-box price-box2  ">
           <div className="flex w-full   h-[60px] font-mono justify-center items-center text-xl text-pricing font-bold ">
             Basic
           </div>
-          <div className="flex w-full h-[60px] font-mono justify-center   text-xl font-light text-grey">
-            <img
-              className="h-[30px] w-[80px] mr-[10px]"
-              src="/p2.png"
-              alt="p1"
-            />{" "}
+          <div className="flex w-full h-[60px] font-mono justify-center   text-xl font-light text-grey"> 
+            <img className="h-[30px] w-[80px] mr-[10px]" src="/p2.png" alt="p1" />
             /months
           </div>
-          <div className="h-[190px] relative w-full bg-grey-box pt-[10px]">
+          <div className="h-[200px] relative w-full bg-grey-box pt-[10px]">
             <div className="pricingText pricingText2   ">
               <div className="flex pb-[5px] pricingText2">
                 <div className="w-[25px]  ">
-                  <img
-                    src="/tick.png"
-                    alt="tick"
-                    className="w-[15px] h-[15px] "
-                  />
+                <img src="/tick.png"  alt="tick" className="w-[15px] h-[15px] " />
+
                 </div>
                 1 room for debbug Local Scene and one on a subdomain
               </div>
               <div className="flex pb-[5px]">
                 <div className="w-[25px]  ">
-                  <img
-                    src="/tick.png"
-                    alt="tick"
-                    className="w-[15px] h-[15px] "
-                  />
+                <img src="/tick.png"  alt="tick" className="w-[15px] h-[15px] " />
+
                 </div>
                 Limit of 20 member in a room
               </div>
 
               <div className="flex pb-[5px]">
                 <div className="w-[25px]  ">
-                  <img
-                    src="/tick.png"
-                    alt="tick"
-                    className="w-[15px] h-[15px] "
-                  />
+                <img src="/tick.png"  alt="tick" className="w-[15px] h-[15px] " />
                 </div>
                 All features in custom mode
               </div>
               <div className="flex pb-[5px]">
                 <div className="w-[25px]  ">
-                  <img
-                    src="/tick.png"
-                    alt="tick"
-                    className="w-[15px] h-[15px] "
-                  />
+                <img src="/tick.png"  alt="tick" className="w-[15px] h-[15px] " />
+
                 </div>
-                No custom verse branding
+                No custom verse branding  
               </div>
             </div>
              
             <div className="pricingBtn">Get started</div>
           </div>
         </div>
-        <div className="price-box price-box3  ">
+        <div style={{height:'410px'}} className="price-box price-box3  ">
           <div className="w-full h-[50px] text-whites bg-blue flex justify-center items-center pt-3 text-xl font-bold">
             Most Popular
           </div>
           <div className=" w-full   h-[60px] font-mono flex justify-center items-center text-xl text-pricing font-bold ">
             Personal
           </div>
-          <div className="flex w-full h-[60px] font-mono justify-center   text-xl font-light">
-            <img
-              className="h-[30px] w-[50px] mr-[10px]"
-              src="/p1.png"
-              alt="p1"
-            />{" "}
+          {/* <div className="flex   pricingPrice3 h-[60px] justify-center font-mono w-[250px] text-xl font-light">
+           <span style={{  fontSize:'2.6rem',fontWeight:'900'}} className="w-[80px]  ">$12</span>
+             <span className="w-[100px] text-xl font-light text-grey"  >/months</span>
+            
+          </div> */}
+          <div className="flex w-full h-[70px] font-mono justify-center   text-xl font-light">
+          <div className="w-auto flex items-center h-[40px]">
+
+            <img  className="h-[40px] w-[70px] mr-[10px]" src="/p3.png"  alt="p1" /> 
             /months
+          </div>
           </div>
           <div className="h-[230px] relative w-full bg-grey-box pt-[10px]">
               
@@ -169,19 +148,15 @@ export default function Pricing() {
             <div className="pricingBtn">Get started</div>
           </div>
         </div>
-        <div className="price-box price-box4 ">
+        <div style={{height:'330px'}} className="price-box price-box4 ">
           <div className="flex w-full   h-[70px] font-mono justify-center items-center text-xl text-pricing font-bold ">
             Exhibition
           </div>
           <div className="flex w-full h-[70px] font-mono justify-center   text-xl font-light">
-            <img
-              className="h-[30px] w-[50px] mr-[10px]"
-              src="/p4.png"
-              alt="p1"
-            />{" "}
+            <img  className="h-[30px] w-[50px] mr-[10px]" src="/p4.png"  alt="p1" /> 
             /months
           </div>
-          <div className="h-[160px] relative w-full bg-grey-box">
+          <div className="h-[190px] relative w-full bg-grey-box">
           <div className="pricingText pricingText4  ">
               <div className="flex pb-[5px] pricingText4">
                 <div className="w-[25px]  ">
@@ -199,7 +174,7 @@ export default function Pricing() {
               </div>
 
               <div className="flex pb-[5px] pricingText4">
-                <div className="w-[25px] mr-[10px] ">
+                <div className="w-[25px]  ">
                 <img src="/tick.png"  alt="tick"  className="w-[15px] h-[15px] " />
 
                 </div>
@@ -216,7 +191,7 @@ export default function Pricing() {
             <div className="pricingBtn">Get started</div>
           </div>
         </div>
-        <div className="price-box price-box5 ">
+        <div style={{height:'270px'}} className="price-box price-box5 ">
           <div className="flex w-full   h-[60px] font-mono justify-center items-center text-xl text-pricing font-bold ">
           Exhibition
           </div>
@@ -228,7 +203,7 @@ export default function Pricing() {
             />{" "}
             /months
           </div>
-          <div className="h-[140px] relative w-full bg-grey-box">
+          <div className="h-[150px] relative w-full bg-grey-box">
           <div className="pricingText pricingText5  ">
               <div className="flex pb-[5px] pricingText5">
                 <div className="w-[25px]  ">
