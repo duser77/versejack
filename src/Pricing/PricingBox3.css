@@ -6,7 +6,7 @@
 }
 .pricingBoxSection{
     max-width: 98vw;
-    height: 450px;
+    height: 470px;
     display: flex;
     /* margin-top: 50px; */
     overflow-x: scroll;
@@ -160,6 +160,7 @@
     }
     .pricingBoxSection{
         height: fit-content;
+        padding-bottom: 40px;
         display: flex;
         flex-direction: column;
     }
