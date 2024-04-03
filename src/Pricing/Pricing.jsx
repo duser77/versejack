@@ -23,7 +23,7 @@ export default function Pricing() {
         <div className="pricingBoxMain">
       <div className="pricingBoxSection ">
         <div   className="price-box price-box1   ">
-          <div className="flex w-full   h-[50px] font-mono justify-center items-center text-xl text-pricing font-bold ">
+          <div className="flex w-full   h-[50px] font-mono justify-center items-end text-xl text-pricing font-bold ">
             Free
           </div>
           {/* <div className='price-box1p flex  h-[60px] font-mono '>
@@ -54,7 +54,7 @@ export default function Pricing() {
           </div>
         </div>
         <div   className="price-box price-box2  ">
-          <div className="flex w-full   h-[50px] font-mono justify-center items-center text-xl text-pricing font-bold ">
+          <div className="flex w-full   h-[50px] font-mono justify-center items-end text-xl text-pricing font-bold ">
             Basic
           </div>
           <div className="flex pl-[15px]  pricingText2 h-[80px] justify-center  ">
@@ -108,7 +108,7 @@ export default function Pricing() {
           <div className="w-full h-[50px] text-whites bg-blue flex justify-center items-center pt-3 text-xl font-bold">
             Most Popular
           </div>
-          <div className=" w-full   h-[40px] font-mono flex justify-center items-center text-xl text-pricing font-bold ">
+          <div className=" w-full   h-[40px] font-mono flex justify-center items-end text-xl text-pricing font-bold ">
             Personal 
           </div>
           <div className="flex   pricingPrice3 h-[80px] justify-center  ">
@@ -168,7 +168,7 @@ export default function Pricing() {
           </div>
         </div>
         <div   className="price-box price-box4 ">
-          <div className="flex w-full   h-[50px] font-mono justify-center items-center text-xl text-pricing font-bold ">
+          <div className="flex w-full   h-[50px] font-mono justify-center items-end text-xl text-pricing font-bold ">
             Exhibition
           </div>
           <div className="flex pl-[15px]  pricingText4 h-[90px] justify-center   ">
@@ -219,7 +219,7 @@ export default function Pricing() {
           </div>
         </div>
         <div   className="price-box price-box5 ">
-          <div className="flex w-full   h-[50px] font-mono justify-center items-center text-xl text-pricing font-bold ">
+          <div className="flex w-full   h-[50px] font-mono justify-center items-end text-xl text-pricing font-bold ">
           Exhibition
           </div>
           <div className="flex pl-[15px]  pricingText5 h-[80px] justify-center    ">
@@ -276,9 +276,17 @@ export default function Pricing() {
             <div className="w-full text-center text-whites text-xl sm:text-3xl md:text-4xl font-white capitalize">
               propose a  <span className=" text-pink">custom</span> Pricing ?
             </div>
-            <div className="pricingBtnCont my-6 ">
+            {/* <div className="pricingBtnCont my-6 ">
                 <div className="m-auto w-[330px] cursor-pointer">
                   <img src="/btnContact.Png" alt="contact btn" />
+                </div>
+            </div> */}
+            <div className=" relative my-8 ">
+                <div style={{zIndex:'1'}} className="m-auto z-0 flex w-[300px] text-4xl blur-md absolute top-[30px] left-1/2 tranform -translate-x-1/2 justify-center items-center cursor-pointer text-whites  btnPricing h-[80px]">
+                
+                </div>
+                <div  style={{zIndex:'100'}} className="m-auto z-40 flex w-[300px] text-4xl  justify-center items-center cursor-pointer text-whites  btnPricing h-[80px] ">
+                   Contact Us
                 </div>
             </div>
           </div>

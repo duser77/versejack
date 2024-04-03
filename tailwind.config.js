@@ -7,6 +7,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    linearGradientColors: theme => ({
+      'blue-pink': ['to right', '#3498db', '#e74c3c'], // Example gradient from blue to pink
+    }),
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -22,7 +25,8 @@ module.exports = {
       'grey':'#636363',
       'pricing':'#323232',
       'list':'#F5F5F5',
-      'grey-box':'#f4f4f4'
+      'grey-box':'#f4f4f4',
+      'grad-btn':'linear-gradient(62.05deg, #2600FC 0%, #FF00EA 100%)'
     }
   },
   plugins: [],
