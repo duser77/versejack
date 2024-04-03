@@ -44,12 +44,18 @@ const Hero = () => {
               <img src="/star.png" alt="star1" className="star1" />
             </div>
 
-            <div className="btnHero">
+            {/* <div className="btnHero">
 
-               {/* <div className="btnText"> Build your Metaverse</div>  */}
             <div  className="btnDivHero">
-            {/* Build your Metaverse */}
             </div>
+            </div> */}
+            <div className=" relative my-8 p-[16px] ">
+                <div   className="m-auto z-0 flex w-[350px] text-4xl blur-md absolute top-[10px] left-1/2 tranform -translate-x-1/2 justify-center items-center cursor-pointer text-whites  btnPricing h-[80px]">
+                
+                </div>
+                <div    className="m-auto relative z-40 flex w-[350px] text-3xl  justify-center items-center cursor-pointer text-whites  btnPricing h-[70px] ">
+                   Build your Metaverse
+                </div>
             </div>
             <div className="star2Div">
               <img src="/star.png" alt="star2" className="star2" />

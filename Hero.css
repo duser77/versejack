@@ -1,0 +1,60 @@
+---------code of button---------
+/* Group 16 */
+
+position: absolute;
+width: 241px;
+height: 75px;
+left: calc(50% - 241px/2 + 0.5px);
+top: 7138px;
+
+
+
+/* pseudo */
+
+position: absolute;
+width: 241px;
+height: 75px;
+right: 743px;
+top: 7138px;
+
+background: linear-gradient(62.05deg, #2600FC 0%, #FF00EA 100%);
+border-radius: 24px;
+
+
+/* pseudo */
+
+position: absolute;
+width: 241px;
+height: 75px;
+right: 743px;
+top: 7138px;
+
+background: linear-gradient(62.05deg, #2600FC 0%, #FF00EA 100%);
+filter: blur(15.5px);
+border-radius: 24px;
+
+
+/* Contact Us */
+
+position: absolute;
+width: 144px;
+height: 16px;
+right: 791px;
+top: 7168px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 127.5%;
+/* or 31px */
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+

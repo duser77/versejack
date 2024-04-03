@@ -281,11 +281,11 @@ export default function Pricing() {
                   <img src="/btnContact.Png" alt="contact btn" />
                 </div>
             </div> */}
-            <div className=" relative my-8 ">
-                <div style={{zIndex:'1'}} className="m-auto z-0 flex w-[300px] text-4xl blur-md absolute top-[30px] left-1/2 tranform -translate-x-1/2 justify-center items-center cursor-pointer text-whites  btnPricing h-[80px]">
+            <div className=" relative my-8 p-[16px] ">
+                <div   className="m-auto z-0 flex w-[300px] text-4xl blur-md absolute top-[10px] left-1/2 tranform -translate-x-1/2 justify-center items-center cursor-pointer text-whites  btnPricing h-[80px]">
                 
                 </div>
-                <div  style={{zIndex:'100'}} className="m-auto z-40 flex w-[300px] text-4xl  justify-center items-center cursor-pointer text-whites  btnPricing h-[80px] ">
+                <div   className="m-auto relative z-40 flex w-[300px] text-3xl  justify-center items-center cursor-pointer text-whites  btnPricing h-[70px] ">
                    Contact Us
                 </div>
             </div>
